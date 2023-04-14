@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar: Nuevo</title>
+</head>
+
+<body>
+    <form action="grabar.php" method="post">
+        Apellidos:<br>
+        <input type="text" name="txtApellidos" pattern="[a-zA-Z ]{1,30}" required><br> Nombres:        <br>
+        <input type="text" name="txtNombres" pattern="[a-zA-Z ]{1,30}" required><br>
+         Correo:<br>
+        <input type="mail" name="txtCorreo" required><br>
+        <br>
+        <input type="submit" value="Grabar">
+
+    </form>
+</body>
+
+</html>

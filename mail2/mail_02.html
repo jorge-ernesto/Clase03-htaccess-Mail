@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PHP - Enviando correos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    Formato : HTML
+    <form method="post" action="mail_02.php">
+        <p>
+            <label for="txtDestino">Destino</label>
+            <input type="text" name="txtDestino" />
+        </p>
+        <p>
+            <label for="txtTitulo">Titulo</label>
+            <input type="text" name="txtTitulo" />
+        </p>
+        <p>
+            <label for="txtMensaje">Mensaje</label>
+            <textarea name="txtMensaje" cols="30" rows="4"></textarea>
+        </p>
+        <input type="submit" name="btnEnviar" value="Enviar" />
+    </form>
+</body>
+
+</html>

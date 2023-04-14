@@ -1,0 +1,6 @@
+# .htaccess son configuraciones de httpd.conf
+# Ejemplos con .htaccess: https://www.bonaval.com/kb/sistemas-operativos/linux-sistemas-operativos/ejemplos-de-htaccess-que-todo-webmaster-deberia-conocer
+# Las reglas de .htaccess son configuraciones que se heredan a las carpetas hijos, es jerarquico, se extiende a todas las subcarpetas
+
+Options -Indexes
+DirectoryIndex listado.php

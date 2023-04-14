@@ -1,0 +1,2 @@
+# Consiguramos en el servidor Zona Horaria de Lima
+php_value date.timezone 'America/Lima'
